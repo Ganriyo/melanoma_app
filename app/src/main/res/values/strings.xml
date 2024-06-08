@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">MelanomaApp</string>
+    <string name="app_name">Melanoma App</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="scan">Deteksi sekarang</string>
+    <string name="result">Hasil analisis</string>
+    <string name="image_classifier_failed">Mohon maaf, gambar yang anda berikan tidak terdeteksi. Silahkan coba lagi.</string>
 </resources>

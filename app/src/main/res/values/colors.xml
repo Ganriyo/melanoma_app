@@ -2,4 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="light">#F1F1FF</color>
+    <color name="light_hover">#EAEAFF</color>
+    <color name="light_active">#D4D3FE</color>
+    <color name="normal">#7371FC</color>
+    <color name="normal_hover">#6866E3</color>
+    <color name="normal_active">#5C5ACA</color>
+    <color name="dark">#5655BD</color>
+    <color name="dark_hover">#454497</color>
+    <color name="dark_active">#343371</color>
+    <color name="darker">#282858</color>
 </resources>
