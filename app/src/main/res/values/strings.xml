@@ -4,6 +4,8 @@
     <string name="camera">Kamera</string>
     <string name="gallery">Galeri</string>
     <string name="scan">Deteksi sekarang</string>
-    <string name="result">Hasil analisis</string>
+    <string name="confidence">Tingkat Akurasi</string>
+    <string name="explanation">Penjelasan</string>
+    <string name="suggestion">Saran</string>
     <string name="image_classifier_failed">Mohon maaf, gambar yang anda berikan tidak terdeteksi. Silahkan coba lagi.</string>
 </resources>
