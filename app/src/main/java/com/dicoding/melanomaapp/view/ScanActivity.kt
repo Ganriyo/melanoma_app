@@ -22,7 +22,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.io.ByteArrayOutputStream
 import java.io.File
-import retrofit2.Response
+import java.io.FileOutputStream
 
 
 class ScanActivity : AppCompatActivity() {
@@ -100,6 +100,17 @@ class ScanActivity : AppCompatActivity() {
             val bos = ByteArrayOutputStream()
             bitmap.compress(Bitmap.CompressFormat.JPEG, 100, bos)
             val byteArray = bos.toByteArray()
+
+            val file = File(cacheDir, "temp_image.jpg")
+            try {
+                val fos = FileOutputStream(file)
+                fos.write(byteArray)
+                fos.flush()
+                fos.close()
+                return file
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
         }
         return null
     }
