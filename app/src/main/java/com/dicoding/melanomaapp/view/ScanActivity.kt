@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.dicoding.melanomaapp.R
+import com.dicoding.melanomaapp.dataapi.ApiConfig
 import com.dicoding.melanomaapp.dataapi.ApiService
 import com.dicoding.melanomaapp.dataapi.FileUploadResponse
 import kotlinx.coroutines.launch
@@ -36,6 +37,7 @@ class ScanActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_scan)
+        apiService = ApiConfig.getApiService()
 
         galleryButton = findViewById(R.id.galleryButton)
         previewImageView = findViewById(R.id.previewImageView)

@@ -18,17 +18,4 @@ interface ApiService {
         @Part image: MultipartBody.Part,
         @Part("userId") userId: RequestBody
     ): FileUploadResponse
-
-    companion object {
-        private const val BASE_URL = "http://34.101.204.222:5000/"
-
-        fun create(): ApiService {
-            val retrofit = Retrofit.Builder()
-                .baseUrl(BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build()
-
-            return retrofit.create(ApiService::class.java)
-        }
-    }
 }
