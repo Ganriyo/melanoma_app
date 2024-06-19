@@ -1,4 +1,4 @@
-package com.dicoding.melanomaapp.dataapi
+package com.dicoding.melanomaapp.api
 
 import com.google.gson.annotations.SerializedName
 

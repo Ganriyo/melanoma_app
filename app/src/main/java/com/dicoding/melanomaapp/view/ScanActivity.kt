@@ -1,5 +1,6 @@
 package com.dicoding.melanomaapp.view
 
+import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
@@ -11,9 +12,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.dicoding.melanomaapp.R
-import com.dicoding.melanomaapp.dataapi.ApiConfig
-import com.dicoding.melanomaapp.dataapi.ApiService
-import com.dicoding.melanomaapp.dataapi.FileUploadResponse
+import com.dicoding.melanomaapp.api.ApiConfig
+import com.dicoding.melanomaapp.api.ApiService
+import com.dicoding.melanomaapp.api.FileUploadResponse
 import kotlinx.coroutines.launch
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
@@ -33,6 +34,7 @@ class ScanActivity : AppCompatActivity() {
     private lateinit var previewImageView: ImageView
     private val REQUEST_CODE_PICK_IMAGE = 1
     private lateinit var apiService: ApiService
+    private val TEST_USER_ID = "Ke9oXiAzCkKf6Wt89GfR"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -56,8 +58,9 @@ class ScanActivity : AppCompatActivity() {
 
         scanButton.setOnClickListener {
             val imageFile = getImageFileFromImageView()
-            val userId = "beb69861-d474-4d8e-a585-8fad497854e8"
-            if (imageFile != null) {
+            val userId = TEST_USER_ID
+
+            if (imageFile != null && userId != null) {
                 lifecycleScope.launch {
                     try {
                         val response = uploadScan(imageFile, userId)
@@ -75,7 +78,8 @@ class ScanActivity : AppCompatActivity() {
                     }
                 }
             } else {
-                Toast.makeText(this@ScanActivity, "Pilih gambar terlebih dahulu", Toast.LENGTH_SHORT).show()
+                val message = if (imageFile == null) "Pilih gambar terlebih dahulu" else "User ID tidak ditemukan"
+                Toast.makeText(this@ScanActivity, message, Toast.LENGTH_SHORT).show()
             }
         }
 
