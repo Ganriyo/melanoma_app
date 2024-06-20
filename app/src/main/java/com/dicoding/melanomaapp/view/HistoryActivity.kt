@@ -1,4 +1,4 @@
 package com.dicoding.melanomaapp.view
 
-class History {
+class HistoryActivity {
 }
