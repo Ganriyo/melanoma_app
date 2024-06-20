@@ -62,7 +62,6 @@
             android:layout_height="wrap_content"
             android:background="@drawable/border"
             android:orientation="horizontal">
-
             <TextView
                 android:layout_width="143dp"
                 android:layout_height="wrap_content"
@@ -71,7 +70,6 @@
                 android:text="Change Theme"
                 android:textColor="@color/dark"
                 android:textSize="16dp" />
-
             <Switch
                 android:id="@+id/switchTheme"
                 android:layout_width="match_parent"
@@ -154,7 +152,7 @@
             android:src="@drawable/ic_home"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.462" />
+            app:layout_constraintVertical_bias="0.462"/>
 
         <ImageView
             android:layout_width="70dp"
@@ -164,7 +162,7 @@
             android:src="@drawable/ic_history"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.462" />
+            app:layout_constraintVertical_bias="0.462"/>
 
         <ImageView
             android:layout_width="70dp"
@@ -174,7 +172,7 @@
             android:src="@drawable/ic_profile"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.462" />
+            app:layout_constraintVertical_bias="0.462"/>
 
     </androidx.appcompat.widget.Toolbar>
 
