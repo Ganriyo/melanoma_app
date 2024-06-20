@@ -1,4 +1,10 @@
 <resources>
+    <string name="daftar">Sign Up</string>
+    <string name="login">Log In</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="tanya">Sudah memiliki akun?</string>
+    <string name="tanya1">Belum memiliki akun?</string>
     <string name="app_name">Melanoma App</string>
     <string name="camera_x">CameraX</string>
     <string name="camera">Kamera</string>
