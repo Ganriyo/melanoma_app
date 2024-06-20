@@ -6,10 +6,11 @@ import android.os.Bundle
 import android.widget.LinearLayout
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
 import com.dicoding.melanomaapp.R
 
 class MainActivity : AppCompatActivity() {
-    @SuppressLint("WrongViewCast")
+    @SuppressLint("WrongViewCast", "MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -17,8 +18,8 @@ class MainActivity : AppCompatActivity() {
 
         val applicationInfo = getApplicationContext().applicationInfo
 
-        val scanLayout: LinearLayout = findViewById(R.id.scanButton)
-        scanLayout.setOnClickListener {
+        val scanButton: CardView = findViewById(R.id.scanButton)
+        scanButton.setOnClickListener {
             val intent = Intent(this, ScanActivity::class.java)
             startActivity(intent)
         }

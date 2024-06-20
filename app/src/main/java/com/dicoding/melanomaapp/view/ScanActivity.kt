@@ -88,7 +88,6 @@ class ScanActivity : AppCompatActivity() {
             intent.type = "image/*"
             startActivityForResult(intent, REQUEST_CODE_PICK_IMAGE)
         }
-
     }
 
     private suspend fun uploadScan(imageFile: File, userId: String): FileUploadResponse {
@@ -129,5 +128,4 @@ class ScanActivity : AppCompatActivity() {
             previewImageView.setImageURI(selectedImageUri)
         }
     }
-
 }
