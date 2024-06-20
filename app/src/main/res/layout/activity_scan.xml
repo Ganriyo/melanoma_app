@@ -17,30 +17,31 @@
 
         <ImageView
             android:id="@+id/btn_back"
+            android:clickable="true"
             android:layout_width="29dp"
             android:layout_height="34dp"
-            android:layout_centerVertikal="true"
             android:layout_marginStart="44dp"
             android:importantForAccessibility="no"
             android:src="@drawable/back"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toTopOf="@id/toolbar"
+            app:layout_constraintBottom_toBottomOf="@id/toolbar"
             app:layout_constraintVertical_bias="0.462" />
 
         <TextView
             android:id="@+id/pageName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertikal="true"
+
             android:layout_marginHorizontal="40dp"
             android:fontFamily="@font/poppins_medium"
             android:text="Scan Melanoma"
             android:textColor="@color/darker"
             android:textSize="25dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/toolbar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toTopOf="@id/toolbar"
             app:layout_constraintVertical_bias="0.083" />
 
     </androidx.appcompat.widget.Toolbar>
