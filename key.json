@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "healthy-eats-project",
+  "private_key_id": "5f9e0d9f48155e6518bc137c2fa915c7b490e174",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDTeyMVzWQJRoxJ\n+9FMFscbWUTzr3vLauYOSJizVP8fs2YaQzmS3IXIAwVPgrl07J8z1P7MdlR9sprS\npCeR7nUEph7TdintzOjerhTm1lSA98yZnDAWFw29A2z8PVqjMovVPMJ4uiIMdbB0\n198IJ/BXLnZprNwQ1yadcoxECyUUFfJNQU2ozCR58QW5mO07iWpAL/m86HdJ7ceC\nbR3vjXCYa1gThLjNiE7xsOcHnMMs99BE1JLM0xJdjvCC9QF9MslUdoJovUdtiWan\nk3iOIePKPWwH4iysAeoVI+N6A4rL+TAz0+lqOlAkPz7EH5Gb8JQ1KdzrTIAYlIJD\n5lPUzW61AgMBAAECggEAPKXbFXUOA7T2JX9wcdQ0bGzo38OLCnaRHDaIiCFPet1d\nYhm2SJ4yRX5MRxWTruru6xPhsGwc5eFTEiZebLTIXTlwrK797kLt43Jj7yE3Ibcu\ntzy585PP7k0ts5a6yAOGY3Qlxy6F9jHIFXIU9YdSnwXlkn+uqquw2MVRYXAaxYvS\nL+Ev93uAkChgogBDp0Z9OOPIY8wTU45ogawj2ibfvFYSvvpGmsLNfm/aecLmx2ZU\ndQpDLSXbAvwuOGJ7ujJt47e7oT6PLWMvSddJNLXVN87NlpnBs0OhNtC3o3BQ2TpS\n5WOJgNGr02soMIU6VHeUXLzlYalqQ4IAGf5JQXG53wKBgQDuFjH4rFIdsVMUwO1A\nXLi/aiLZG5E6GHR44FC30Y74idlmikMDkCwXQ7TGXKRel5zT2raABLBKMvgNiaP8\n6n+2wEwseqb/gNajgiRGzqAG6YRjUs6JhUyrukT7n19u96UrUaO5LLKXgMlB1Lna\n6vefzhgUGgO4AcPqGeIUnQ5CwwKBgQDjZHzXFAHje46SpcZJ4s+ZHepnWXMXoax3\ngIGDnAavGLaqJBYbI0+yQjQ03AOvJcOK9AwvoB+slEWs5cm5xxOy5WEDMIVawaFr\nnEiOxdVtvD0XUTIr5+PlVC1LkkJ4LCP2ZQvQpK3+ilEWVf3qs1EHy2sw7A1m3sf9\nwako7j+BJwKBgHdJ35e8nxgJdJr9XuHUkyw0vWkSCt2UyyaVHVw8PuoAB1D9DT6H\nyc+OOND6MdDDHex3tODHeJx0lRwTTnq1829ZQdE3UtzJbMFXv11KwZs0/QPWxWzZ\nwOR5235HB8XNhpABw4pP/tsxx6SYNNaey5rh4+aOcjaLi+GLPl8dobuJAoGBALuv\nfG9Vvz1RBVu7YpAnmiwKiiglp55wvlaghcXoaYfqgRKr2Gcr3SMIC+k5U/0j0WOG\njexdYOdkNqI/xCIH1BWLyGgGi3teaOrWQvk9By2c+ludlCizLOJjeUNwBFcGL+S2\ngGsFEewPpGAoN/2ZZh9l4iKuI12uMiobx5DWHSpvAoGAEIR7KCKY4dwk9+h6WtZb\nSj0mQxDJnjfnsrqqKmV0zBb3lw0EwEaShBXL/2lOImFc8TCnFqVxCB8BOHziwlpA\nwkbiVUIbnSRnnkW8DHWv0ktC/6DwbBRUzSJPUNTCEVdDovZnirCmunm9oJ7+WALg\nj4hIkj4JF3b5j80TKpBKq1g=\n-----END PRIVATE KEY-----\n",
+  "client_email": "key-47@healthy-eats-project.iam.gserviceaccount.com",
+  "client_id": "103085010590632345167",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/key-47%40healthy-eats-project.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
